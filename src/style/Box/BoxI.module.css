@@ -1,8 +1,8 @@
-.box-II {
+.boxI {
   transition-duration: 3000ms;
   transition-timing-function: ease;
 }
 
-.box-II:hover {
-  transform: translateY(-192px);
+.boxI:hover {
+  transform: translateY(100%);
 }

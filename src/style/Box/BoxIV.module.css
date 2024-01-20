@@ -1,8 +1,8 @@
-.box-III {
+.boxIV {
   transition-duration: 5000ms;
   transition-timing-function: ease;
 }
 
-.box-III:hover {
-  transform: translateX(100%);
+.boxIV:hover {
+  transform: translateX(-100%);
 }

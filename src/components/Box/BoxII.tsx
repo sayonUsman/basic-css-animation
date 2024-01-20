@@ -1,4 +1,4 @@
-import "../../style/BoxII.css";
+import boxStyle from "../../style/Box/BoxII.module.css";
 
 const BoxII = () => {
   return (
@@ -7,7 +7,7 @@ const BoxII = () => {
         CSS ANIMATION (BOX II)
       </h1>
 
-      <div className="absolute w-full h-48 bg-green-500 box-II">
+      <div className={`absolute w-full h-48 bg-green-500 ${boxStyle.boxII}`}>
         <div className="flex justify-center items-center h-full">
           <h1 className="text-3xl text-white font-bold">
             CSS ANIMATION (BOX II)

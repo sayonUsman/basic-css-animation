@@ -1,0 +1,9 @@
+.boxVII {
+  transition-duration: 3000ms;
+  transition-timing-function: ease;
+  transform-origin: bottom;
+}
+
+.boxVII:hover {
+  transform: rotate(180deg);
+}

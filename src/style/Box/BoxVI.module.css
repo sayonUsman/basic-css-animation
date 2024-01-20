@@ -1,0 +1,9 @@
+.boxVI {
+  transition-duration: 3000ms;
+  transition-timing-function: ease;
+  transform-origin: top;
+}
+
+.boxVI:hover {
+  transform: rotate(-180deg);
+}
