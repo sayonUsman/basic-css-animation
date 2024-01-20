@@ -1,0 +1,8 @@
+.box-III {
+  transition-duration: 5000ms;
+  transition-timing-function: ease;
+}
+
+.box-III:hover {
+  transform: translateX(100%);
+}
