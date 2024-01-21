@@ -2,7 +2,7 @@ import boxStyle from "../../style/Box/BoxIV.module.css";
 
 const BoxIV = () => {
   return (
-    <div className="flex justify-center items-center relative overflow-hidden h-48 border-2 border-purple-500 mt-7">
+    <div className="flex justify-center items-center relative overflow-hidden h-48 shadow-md shadow-purple-500 mt-7">
       <h1 className="text-3xl text-purple-500 font-bold">
         CSS ANIMATION (BOX IV)
       </h1>
