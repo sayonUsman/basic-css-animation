@@ -7,6 +7,8 @@ import BoxVI from "./components/Box/BoxVI";
 import BoxVII from "./components/Box/BoxVII";
 import BoxVIII from "./components/Box/BoxVIII";
 import ButtonI from "./components/Button/ButtonI";
+import PreloaderI from "./components/Preloader/PreloaderI";
+import PreloaderII from "./components/Preloader/PreloaderII";
 
 function App() {
   return (
@@ -26,6 +28,9 @@ function App() {
       <div className="flex justify-center my-7">
         <ButtonI />
       </div>
+
+      <PreloaderI />
+      <PreloaderII />
     </>
   );
 }
